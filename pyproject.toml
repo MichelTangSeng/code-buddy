@@ -52,3 +52,6 @@ src = ["src", "tests"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
+
+[tool.vercel]
+entrypoint = "codebuddy.api.app:app"
