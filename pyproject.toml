@@ -54,4 +54,4 @@ src = ["src", "tests"]
 select = ["E", "F", "I", "UP", "B"]
 
 [tool.vercel]
-entrypoint = "codebuddy.api.app:app"
+entrypoint = "src/codebuddy/api/app.py"
